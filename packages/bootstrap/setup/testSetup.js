@@ -1,0 +1,24 @@
+// // FIXME: this should be from the testSetup file somehow. Not having it breaks things
+// eslint-disable-next-line import/no-extraneous-dependencies
+import '@testing-library/jest-dom/extend-expect'; // (Replaces) 'jest-dom/extend-expect';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import 'jest-styled-components';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { render } from '@testing-library/react';
+import React from 'react';
+import TestBootstrap from './docSetup';
+
+const bootstrapRender = (
+  node,
+  { theme = 'obs', themeOverrides, ...options } = {}
+) => {
+  return render(
+    <TestBootstrap themeName={theme} overrides={themeOverrides}>
+      {node}
+    </TestBootstrap>,
+    options
+  );
+};
+
+export * from '@testing-library/react';
+export { bootstrapRender as render };

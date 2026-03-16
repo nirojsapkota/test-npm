@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1740614610711" clover="3.2.0">
+  <project timestamp="1740614610711" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="17" ncloc="17" packages="1" files="2" classes="2"/>
+    <file name="error-boundary.js" path="/Users/niroj/projects/obs/rtm-kit/packages/bootstrap/src/error-boundary.js">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <line num="5" count="10" type="stmt"/>
+      <line num="6" count="10" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="26" count="4" type="stmt"/>
+    </file>
+    <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/bootstrap/src/index.js">
+      <metrics statements="8" coveredstatements="8" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

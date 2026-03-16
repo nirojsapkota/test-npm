@@ -1,0 +1,32 @@
+{
+  "name": "@rtm-ui/tracker",
+  "version": "5.9.6",
+  "rtmRollup": {
+    "namespace": "tracker",
+    "namedExports": [
+      "TrackingProvider",
+      "useTracker",
+      "track",
+      "TrackerRegistration"
+    ]
+  },
+  "description": "Description for Bootstrap",
+  "author": "RevTech Media",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "_module": "src/index",
+  "scripts": {
+    "build": "rtm-scripts rollup --f umd",
+    "test": "rtm-scripts test --p ../../setupTests.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "universal-cookie": "^3.0.3"
+  },
+  "peerDependencies": {
+    "prop-types": "15.x",
+    "react": "16.x",
+    "styled-components": "4.x"
+  }
+}

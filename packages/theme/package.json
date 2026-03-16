@@ -1,0 +1,40 @@
+{
+  "name": "@rtm-ui/theme",
+  "version": "4.2.0",
+  "rtmRollup": {
+    "namespace": "theme",
+    "namedExports": [
+      "BootstrapTheme",
+      "Theme",
+      "backgroundStyle",
+      "getColor",
+      "getWeight",
+      "tintColor",
+      "themeMap",
+      "setIn",
+      "defaultTheme",
+      "fiftyup",
+      "ninesaver",
+      "obs"
+    ]
+  },
+  "description": "Base theming component for all RTM brands",
+  "author": "RevTech Media",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "_module": "src/index",
+  "scripts": {
+    "build": "rtm-scripts rollup --f umd",
+    "test": "rtm-scripts test --p '../../setupTests.js'"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.topath": "4.5.2"
+  },
+  "peerDependencies": {
+    "prop-types": "15.x",
+    "react": "16.x",
+    "styled-components": "4.x"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@rtm-ui/button",
+  "version": "1.0.0",
+  "rtmRollup": {
+    "namespace": "button",
+    "namedExports": [
+      "Button",
+      "ButtonGroup",
+      "ButtonGrid"
+    ]
+  },
+  "description": "Description for Bootstrap",
+  "author": "RevTech Media",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "_module": "src/index",
+  "scripts": {
+    "build": "rtm-scripts rollup --f umd",
+    "test": "rtm-scripts test --p '../../setupTests.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirojsapkota/github-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@rtm-ui/bootstrap": "file:../bootstrap",
+    "@rtm-ui/layout": "file:../layout",
+    "@rtm-ui/theme": "file:../theme",
+    "@rtm-ui/tracker": "file:../tracker",
+    "@rtm-ui/typography": "file:../typography"
+  },
+  "peerDependencies": {
+    "prop-types": "15.x",
+    "react": "16.x",
+    "styled-components": "4.x"
+  }
+}

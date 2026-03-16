@@ -1,0 +1,16 @@
+---
+name: Markdown
+route: /typography/markdown
+menu: Typography
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Markdown } from '../src';
+import { content } from './content.md';
+
+# Markdown
+
+<Markdown
+  raw={content}
+  referenceObject={{ sample: { url: 'https://example.com', detail: 'hello details' } }}
+/>

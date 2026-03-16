@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1740578245366" clover="3.2.0">
+  <project timestamp="1740578245367" name="All files">
+    <metrics statements="70" coveredstatements="70" conditionals="43" coveredconditionals="39" methods="33" coveredmethods="33" elements="146" coveredelements="142" complexity="0" loc="70" ncloc="70" packages="8" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.block">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/block/index.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.box">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/box/index.js">
+        <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.card">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/card/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.flex">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/flex/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pane">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/pane/index.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.topbordercard">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/topbordercard/index.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.util">
+      <metrics statements="34" coveredstatements="34" conditionals="23" coveredconditionals="21" methods="13" coveredmethods="13"/>
+      <file name="helpers.js" path="/Users/niroj/projects/obs/rtm-kit/packages/layout/src/util/helpers.js">
+        <metrics statements="34" coveredstatements="34" conditionals="23" coveredconditionals="21" methods="13" coveredmethods="13"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="46" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="64" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="82" count="4" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="130" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="135" count="2" type="stmt"/>
+        <line num="136" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="139" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
