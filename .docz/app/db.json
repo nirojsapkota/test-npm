@@ -1,0 +1,334 @@
+{
+  "config": {
+    "title": "Rtm Kit",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {}
+  },
+  "entries": {
+    "packages/bootstrap/doc.mdx": {
+      "name": "Bootstrap",
+      "route": "/utilities/bootstrap",
+      "menu": "Utilities",
+      "id": "3f1129a86ef4951511747d4c51ba0bd7",
+      "filepath": "packages/bootstrap/doc.mdx",
+      "link": null,
+      "slug": "packages-bootstrap-doc",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "bootstrap",
+          "value": "Bootstrap"
+        }
+      ]
+    },
+    "packages/button/doc.mdx": {
+      "name": "Button",
+      "route": "/components/button",
+      "menu": "Components",
+      "id": "0c4e24e0a379e9de54a1a59fa6b506ec",
+      "filepath": "packages/button/doc.mdx",
+      "link": null,
+      "slug": "packages-button-doc",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
+        },
+        {
+          "depth": 2,
+          "slug": "styles",
+          "value": "Styles"
+        },
+        {
+          "depth": 2,
+          "slug": "variants",
+          "value": "Variants"
+        },
+        {
+          "depth": 2,
+          "slug": "tracking",
+          "value": "Tracking"
+        },
+        {
+          "depth": 2,
+          "slug": "as-an-a-tag",
+          "value": "As an A tag"
+        },
+        {
+          "depth": 2,
+          "slug": "as-a-wrapper",
+          "value": "As a Wrapper"
+        },
+        {
+          "depth": 2,
+          "slug": "with-icons",
+          "value": "With Icons"
+        },
+        {
+          "depth": 2,
+          "slug": "button-group",
+          "value": "Button Group"
+        }
+      ]
+    },
+    "packages/img/doc.mdx": {
+      "name": "Img",
+      "route": "/primitives/img",
+      "menu": "Primitives",
+      "id": "4eda7aca8c8aed16400c2579c8127529",
+      "filepath": "packages/img/doc.mdx",
+      "link": null,
+      "slug": "packages-img-doc",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "img",
+          "value": "Img"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "responsive-image-component",
+          "value": "Responsive Image Component"
+        },
+        {
+          "depth": 3,
+          "slug": "it-takes-dual-images-and-resize-it-to-different-breakpoints-mobile--desktop",
+          "value": "It takes dual images and resize it to different breakpoints (Mobile & Desktop)"
+        },
+        {
+          "depth": 2,
+          "slug": "proptypes",
+          "value": "PropTypes"
+        }
+      ]
+    },
+    "packages/layout/doc.mdx": {
+      "name": "Layout",
+      "route": "/primitives/layout",
+      "menu": "Primitives",
+      "id": "2aacfec810fbf3b6302fbb1a8869d056",
+      "filepath": "packages/layout/doc.mdx",
+      "link": null,
+      "slug": "packages-layout-doc",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "layout",
+          "value": "Layout"
+        },
+        {
+          "depth": 2,
+          "slug": "pane",
+          "value": "Pane"
+        },
+        {
+          "depth": 2,
+          "slug": "block",
+          "value": "Block"
+        },
+        {
+          "depth": 2,
+          "slug": "usage",
+          "value": "Usage"
+        },
+        {
+          "depth": 2,
+          "slug": "card",
+          "value": "Card"
+        },
+        {
+          "depth": 1,
+          "slug": "overrides",
+          "value": "Overrides"
+        },
+        {
+          "depth": 3,
+          "slug": "elevation",
+          "value": "Elevation"
+        }
+      ]
+    },
+    "packages/theme/doc.mdx": {
+      "name": "Theme",
+      "route": "/utilities/theme",
+      "menu": "Utilities",
+      "id": "01a6cd4490a4108b304e7baebdffcfcb",
+      "filepath": "packages/theme/doc.mdx",
+      "link": null,
+      "slug": "packages-theme-doc",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "theme",
+          "value": "Theme"
+        },
+        {
+          "depth": 2,
+          "slug": "variants",
+          "value": "Variants"
+        },
+        {
+          "depth": 3,
+          "slug": "maintaining-theme-variants",
+          "value": "Maintaining theme variants"
+        },
+        {
+          "depth": 3,
+          "slug": "fallback",
+          "value": "Fallback"
+        }
+      ]
+    },
+    "packages/typography/docs/blurb.mdx": {
+      "name": "Blurb",
+      "route": "/typography/blurb",
+      "menu": "Typography",
+      "id": "f8586e64fcb1ffba2577fecf9b01854b",
+      "filepath": "packages/typography/docs/blurb.mdx",
+      "link": null,
+      "slug": "packages-typography-docs-blurb",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "blurb",
+          "value": "Blurb"
+        },
+        {
+          "depth": 2,
+          "slug": "proptypes",
+          "value": "PropTypes"
+        }
+      ]
+    },
+    "packages/typography/docs/doc.mdx": {
+      "name": "Text",
+      "route": "/typography/text",
+      "menu": "Typography",
+      "id": "e3588e16dd8a7d3e173ffe132ad96467",
+      "filepath": "packages/typography/docs/doc.mdx",
+      "link": null,
+      "slug": "packages-typography-docs-doc",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "text",
+          "value": "Text"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 3,
+          "slug": "raw-html",
+          "value": "Raw HTML:"
+        },
+        {
+          "depth": 3,
+          "slug": "all-variants",
+          "value": "All variants:"
+        },
+        {
+          "depth": 2,
+          "slug": "propstable",
+          "value": "PropsTable"
+        }
+      ]
+    },
+    "packages/typography/docs/headers.mdx": {
+      "name": "Headers",
+      "route": "/typography/headers",
+      "menu": "Typography",
+      "id": "32f99c70b371b7dbc7a5023febc79b1b",
+      "filepath": "packages/typography/docs/headers.mdx",
+      "link": null,
+      "slug": "packages-typography-docs-headers",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "text",
+          "value": "Text"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "propstable",
+          "value": "PropsTable"
+        }
+      ]
+    },
+    "packages/typography/docs/markdown.mdx": {
+      "name": "Markdown",
+      "route": "/typography/markdown",
+      "menu": "Typography",
+      "id": "6610153bfd1840509e7cfe5439fa537f",
+      "filepath": "packages/typography/docs/markdown.mdx",
+      "link": null,
+      "slug": "packages-typography-docs-markdown",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "markdown",
+          "value": "Markdown"
+        }
+      ]
+    },
+    "packages/typography/docs/usage.mdx": {
+      "name": "Usage",
+      "route": "/typography/usage",
+      "menu": "Typography",
+      "id": "2c5b5397405136b02aa9b809fc60e123",
+      "filepath": "packages/typography/docs/usage.mdx",
+      "link": null,
+      "slug": "packages-typography-docs-usage",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "text",
+          "value": "Text"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "",
+          "value": ""
+        }
+      ]
+    }
+  }
+}

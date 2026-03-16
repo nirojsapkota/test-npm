@@ -1,0 +1,30 @@
+{
+  "name": "@rtm-ui/img",
+  "version": "5.0.23",
+  "description": "Description for Bootstrap",
+  "author": "RevTech Media",
+  "rtmRollup": {
+    "namespace": "img",
+    "namedExports": [
+      "Img",
+      "ResponsiveImage"
+    ]
+  },
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "_module": "src/index",
+  "scripts": {
+    "build": "rtm-scripts rollup --f umd",
+    "test": "rtm-scripts test --p '../../setupTests.js'"
+  },
+  "dependencies": {
+    "@rtm-ui/bootstrap": "file:../bootstrap",
+    "@rtm-ui/layout": "file:../layout"
+  },
+  "peerDependencies": {
+    "prop-types": "15.x",
+    "react": "16.x",
+    "styled-components": "4.x"
+  }
+}

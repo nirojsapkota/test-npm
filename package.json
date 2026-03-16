@@ -33,7 +33,7 @@
     "test:package": "lerna run test --stream --scope @nirojsapkota-ui/$npm_config_package -- -- --colors --coverage"
   },
   "devDependencies": {
-    "@rtm/core": "file:../rtm-core",
+    "@rtm/core": "file:rtm-core",
     "@upstatement/prettier-config": "^0.3.0",
     "@xstate/react": "^0.7.1",
     "acorn": "^6.1.1",
